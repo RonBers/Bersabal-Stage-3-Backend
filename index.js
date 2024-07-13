@@ -38,7 +38,7 @@ app.get('/', async (req, res) => {
   }
 });
 
-app.get('/favorites', async (req, res) => {
+app.get('/programming_languages', async (req, res) => {
   try {
     const connection = await pool.promise().getConnection();
     const [rows] = await connection.query('SELECT * FROM programming_languages');
