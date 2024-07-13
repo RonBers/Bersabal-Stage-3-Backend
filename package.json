@@ -1,0 +1,16 @@
+{
+  "name": "bersabal-stage-3",
+  "version": "1.0.0",
+  "description": "Stage 3 sysdev application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ron Bersabal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.2"
+  }
+}
